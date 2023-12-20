@@ -2,6 +2,7 @@ import './App.css'
 import HelloWorld from './components/helloWorld'
 import MyName from './components/MyName'
 import User from './components/User'
+import List from './components/List'
 
 // JSX
 
@@ -10,10 +11,6 @@ function App() {
   const url = 'https://via.placeholder.com/150'
   const idade = 15
   const profissao = 'Programador'
-
-  /*function Sum(a, b) {
-    return a + b
-  }*/
 
   return (
     <div className="App">
@@ -36,6 +33,7 @@ function App() {
         profissao="Bióloga"
       />
 
+      <List />
     </div>
   )
 }

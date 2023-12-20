@@ -2,3 +2,8 @@ body {
   padding: 50px;
   background-color: #efefef;
 }
+
+p {
+  padding: 10px;
+  background-color: #a8a8a8;
+}
