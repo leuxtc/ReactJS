@@ -1,41 +1,20 @@
-import './App.css'
-import HelloWorld from './components/helloWorld'
-import MyName from './components/MyName'
-import User from './components/User'
-import List from './components/List'
+import { useState } from 'react'
 
-// JSX
+import './App.css'
+import SeuNome from './components/SeuNome'
+import Saudacao from './components/Saudacao'
 
 function App() {
-  const name = 'Leo'
-  const url = 'https://via.placeholder.com/150'
-  const idade = 15
-  const profissao = 'Programador'
+
+  const [name, setName] = useState()
 
   return (
     <div className="App">
-      <HelloWorld/>
-      
-      <MyName name="Isa"/>
-      <MyName name={name}/>
-
-      <User 
-        foto={url} 
-        name={name} 
-        idade={idade} 
-        profissao={profissao}
-      />
-      
-      <User 
-        foto={url} 
-        name="Isa" 
-        idade="16" 
-        profissao="Bióloga"
-      />
-
-      <List />
+      <h1>State Lift</h1>
+      <SeuNome setName={setName}/>
+      <Saudacao name={name}/>
     </div>
   )
 }
 
-export default App;
+export default App
