@@ -1,0 +1,14 @@
+.list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 2em;
+    background-color: rgb(186, 186, 186);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.306);
+}
+
+.item {
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+}

@@ -1,0 +1,20 @@
+.Form input {
+    background-color: #efefef;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.197);
+    border: 0;
+    border-radius: 10px;
+    width: 250px;
+    margin: .5em;
+    padding: 20px;
+}
+
+.Bttn {
+    color: white;
+    background-color: rgb(29, 98, 98);
+    text-align: left;
+    border: 0;
+    border-radius: 10px;
+    width: 290px;
+    margin: 10px 0;
+    padding: 20px;
+}

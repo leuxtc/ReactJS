@@ -1,18 +1,12 @@
-import { useState } from 'react'
-
+import React from 'react'
 import './App.css'
-import SeuNome from './components/SeuNome'
-import Saudacao from './components/Saudacao'
+import AppRoutes from './components/Routes'
+
 
 function App() {
-
-  const [name, setName] = useState()
-
   return (
-    <div className="App">
-      <h1>State Lift</h1>
-      <SeuNome setName={setName}/>
-      <Saudacao name={name}/>
+    <div>
+      <AppRoutes />
     </div>
   )
 }
