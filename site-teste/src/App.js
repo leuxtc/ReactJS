@@ -4,6 +4,7 @@ import './components/form/Form.modules.css'
 import CriarUser from './components/form/CriarUser';
 import Forms from './components/form/Forms';
 import { useState } from 'react'
+import Footer from '../../projeto-react/src/components/Footer';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
       <CriarUser
         name={name}
         email={email}
-        senha={senha} />
+        senha={senha} />      
     </div>
   )
 }
