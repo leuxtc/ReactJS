@@ -1,8 +1,8 @@
-import styles from './pages/Navbar.modules.css'
+import styles from './Navbar.module.css'
 import React from "react"
-import Home from "./pages/Home"
-import Empresa from "./pages/Empresa"
-import Contato from "./pages/Contato"
+import Home from "./Home"
+import Empresa from "./Empresa"
+import Contato from "./Contato"
 import { 
     BrowserRouter as Router, 
     Route, 
@@ -13,10 +13,10 @@ from "react-router-dom"
 const AppRoutes = () => {
     return (
         <Router>
-            <ul className="list">
-                <li><Link className="item" to="/">Home</Link></li>
-                <li><Link className="item" to="/empresa">Empresa</Link></li>
-                <li><Link className="item" to="/contato">Contato</Link></li>
+            <ul className={styles.list}>
+                <li><Link className={styles.item} to="/">Home</Link></li>
+                <li><Link className={styles.item} to="/empresa">Empresa</Link></li>
+                <li><Link className={styles.item} to="/contato">Contato</Link></li>
             </ul>
             <Routes>
                 <Route exact path="/" element={<Home/>}></Route>
