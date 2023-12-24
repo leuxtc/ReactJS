@@ -1,6 +1,7 @@
 .list {
     display: flex;
     justify-content: center;
+    align-items: center;
     list-style: none;
     padding: 2em;
     background-color: rgb(186, 186, 186);
