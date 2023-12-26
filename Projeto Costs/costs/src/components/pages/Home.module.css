@@ -15,7 +15,7 @@
 
 .home_container h1 {
     font-size: 4em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .home_container h1 span {
@@ -30,26 +30,6 @@
     margin-bottom: 1.5em;
 }
 
-.button {
-    padding: 1em;
-    border-radius: 10px;
-    border: none;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-    color: #FFF;
-    background-color: #222;
-    transition: .3s;
-}
-
-.button:hover {
-    transition: .5s;
-    color: #222;
-    background-color: #ffbb33;
-    box-shadow: 0 10px 20px 0 #22222240;
-    transform: scale(1.1);
-}
-
-.img {
+.home_container img {
     width: 600px;
 }
