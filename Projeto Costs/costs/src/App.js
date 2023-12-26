@@ -1,9 +1,10 @@
-
+import React from "react"
+import AppRoutes from './components/pages/AppRoutes'
 
 function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <AppRoutes/>
     </div>
   )
 }
