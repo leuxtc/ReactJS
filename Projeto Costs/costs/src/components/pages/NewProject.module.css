@@ -1,0 +1,25 @@
+.NP_container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NP_container div {
+    width: 250px;
+}
+
+.NP_container h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+.NP_container span {
+    color: #ffbb33;
+    font-weight: bolder;
+}
+
+.NP_container p {
+    color: #8f8f8f;
+}
